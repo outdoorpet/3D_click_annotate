@@ -4,7 +4,10 @@ import numpy as np
 
 
 def visualize3DData(X, annotes):
-    """Visualize data in 3d plot with popover next to mouse position.
+    """Visualize data in 3d plot with popover next to mouse click (middle button) position.
+    
+    Modified from DonCristobal's Answer on StackOverflow:
+    http://stackoverflow.com/questions/10374930/matplotlib-annotating-a-3d-scatter-plot
 
     Args:
         X (np.array) - array of points, of shape (numPoints, 3)
