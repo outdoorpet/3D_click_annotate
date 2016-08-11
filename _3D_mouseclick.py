@@ -8,6 +8,7 @@ def visualize3DData(X, annotes):
 
     Args:
         X (np.array) - array of points, of shape (numPoints, 3)
+        annotes - list of length (numPoints) of user defined annotes
     Returns:
         None
     """
